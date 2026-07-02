@@ -7,215 +7,218 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page-shell">
-    <section class="hero" aria-labelledby="page-title">
-      <div class="hero-media" aria-hidden="true">
-        <div class="table-scene">
-          <span class="plate plate-a"></span>
-          <span class="plate plate-b"></span>
-          <span class="glass glass-a"></span>
-          <span class="glass glass-b"></span>
-          <span class="dish dish-a"></span>
-          <span class="dish dish-b"></span>
-        </div>
-      </div>
-      <div class="hero-copy">
-        <p class="eyebrow">Shimbashi Night View Dinner</p>
-        <h1 id="page-title">飲み会のご案内</h1>
-        <p class="lead">7月1日、Nick &amp; Noojoo 新橋本店で楽しい時間を過ごしましょう。</p>
-        <div class="hero-tags" aria-label="開催ポイント">
-          <span>7月1日 18:30</span>
-          <span>夜景ダイニング</span>
-          <span>2時間</span>
-        </div>
+  <main>
+    <section class="hero" aria-label="飲み会のご案内">
+      <img src="assets/nick-noojoo-anime-people.png" alt="" class="hero__image">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="eyebrow">After Work Gathering</p>
+        <h1>飲み会のご案内</h1>
+        <p class="lead">7月1日 18:30より、Nick &amp; Noojoo 新橋本店にて開催します。</p>
+        <a class="primary-link" href="tel:0364324955">03-6432-4955</a>
       </div>
     </section>
 
-    <section class="details" aria-label="開催概要">
-      <div class="detail-item">
-        <span class="label">開催日時</span>
-        <span class="value">2026年7月1日 18:30から2時間</span>
-      </div>
-      <div class="detail-item">
-        <span class="label">会場名</span>
-        <span class="value">Nick &amp; Noojoo 新橋本店</span>
-      </div>
-      <div class="detail-item">
-        <span class="label">会場住所</span>
-        <span class="value">東京都港区新橋3丁目13-4 ACN新橋スクエア 7F</span>
-      </div>
-      <div class="detail-item">
-        <span class="label">参加者の名前</span>
-        <span class="value">藤原、八木、猪俣、沢田、関野、宮下、五十嵐</span>
-      </div>
-      <div class="detail-item">
-        <span class="label">会費</span>
-        <span class="value">6,000円（当日回収）</span>
-      </div>
-      <div class="detail-item">
-        <span class="label">連絡先電話番号</span>
-        <a class="value link" href="tel:0364324955">03-6432-4955</a>
-      </div>
-    </section>
-
-    <section class="message" aria-label="メッセージ">
-      <h2>当日はお気をつけてお越しください</h2>
-      <p>開始時間に合わせてお集まりください。変更がある場合は、上記の連絡先までご確認ください。</p>
-      <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E6%96%B0%E6%A9%8B3%E4%B8%81%E7%9B%AE13-4%20ACN%E6%96%B0%E6%A9%8B%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%207F" target="_blank" rel="noopener">地図を開く</a>
-    </section>
-
-    <section class="media-section" aria-label="イメージ画像と音楽">
-      <div class="section-heading">
-        <h2>当日のイメージ</h2>
-        <p>夜景を眺めながら、ゆったり楽しむ雰囲気です。</p>
-      </div>
-      <div class="image-gallery">
-        <figure>
-          <img src="assets/nomikai01.png" alt="夜景を見ながら飲み会を楽しむアニメ調のイメージ">
-          <figcaption>夜景ダイニング</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/nomikai02.png" alt="会場ビル外観のアニメ調イメージ">
-          <figcaption>会場イメージ</figcaption>
-        </figure>
-      </div>
-      <div class="music-list">
-        <div class="music-item">
-          <span>Background Music 01</span>
-          <audio controls preload="metadata" src="assets/夜景ダイニング01.mp3"></audio>
+    <section class="details" aria-label="開催情報">
+      <div class="details__inner">
+        <div class="summary">
+          <p class="section-label">Information</p>
+          <h2>開催情報</h2>
+          <p>開始時間に余裕をもってお越しください。会場はACN新橋スクエアの7階です。</p>
         </div>
-        <div class="music-item">
-          <span>Background Music 02</span>
-          <audio controls preload="metadata" src="assets/夜景ダイニング02.mp3"></audio>
+
+        <dl class="info-list">
+          <div>
+            <dt>開催日時</dt>
+            <dd>7月1日 18:30から2時間</dd>
+          </div>
+          <div>
+            <dt>会場名</dt>
+            <dd>Nick &amp; Noojoo 新橋本店</dd>
+          </div>
+          <div>
+            <dt>会場住所</dt>
+            <dd>東京都港区新橋3丁目13-4 ACN新橋スクエア 7F</dd>
+          </div>
+          <div>
+            <dt>参加者の名前</dt>
+            <dd>藤原、岡崎、長沼</dd>
+          </div>
+          <div>
+            <dt>会費</dt>
+            <dd>6000円（当日）</dd>
+          </div>
+          <div>
+            <dt>連絡先電話番号</dt>
+            <dd><a href="tel:0364324955">03-6432-4955</a></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="venue-image" aria-label="会場イメージ">
+      <div class="venue-image__inner">
+        <div>
+          <p class="section-label">Scene</p>
+          <h2>会場イメージ</h2>
+        </div>
+        <img src="assets/nick-noojoo-anime-people.png" alt="Nick &amp; Noojoo 新橋本店で飲み会を楽しむ参加者のイメージ">
+      </div>
+    </section>
+
+    <section class="music" aria-label="BGM">
+      <div class="music__inner">
+        <div>
+          <p class="section-label">Music</p>
+          <h2>BGM</h2>
+          <p>ページを開くとBGMが流れます。音を止めたいときは停止ボタンを押してください。</p>
+        </div>
+        <div class="bgm-panel">
+          <audio id="bgm-audio" autoplay loop preload="auto">
+            <source src="assets/%E5%A4%9C%E6%99%AF%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B001.mp3" type="audio/mpeg">
+          </audio>
+          <p id="bgm-status" class="bgm-status" aria-live="polite">BGMを自動再生しています。</p>
+          <div class="bgm-controls" aria-label="BGM操作">
+            <button id="bgm-play" class="music-button" type="button">再生</button>
+            <button id="bgm-stop" class="music-button music-button--secondary" type="button">停止</button>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="board-section" aria-labelledby="board-title">
-      <div class="section-heading">
-        <h2 id="board-title">メッセージ掲示板</h2>
-        <p>参加者へのひとことや当日の連絡メモを書き込めます。</p>
+    <section class="board" aria-label="掲示板">
+      <div class="board__inner">
+        <div>
+          <p class="section-label">Board</p>
+          <h2>掲示板</h2>
+          <p>当日の連絡やひとことメッセージを書き込めます。</p>
+          <p class="notice">自分の名前を選択して、出欠の有無をコメントしてください。</p>
+        </div>
+        <div class="board-panel">
+          <form id="board-form" class="board-form">
+            <label for="board-name">名前</label>
+            <select id="board-name" name="name" required>
+              <option value="">選択してください</option>
+              <option value="藤原">藤原</option>
+              <option value="岡崎">岡崎</option>
+              <option value="長沼">長沼</option>
+            </select>
+
+            <label for="board-comment">コメント</label>
+            <textarea id="board-comment" name="comment" rows="4" placeholder="コメントを入力してください" required></textarea>
+
+            <button class="submit-button" type="submit">投稿する</button>
+          </form>
+          <div class="comment-list-wrap">
+            <h3>投稿一覧</h3>
+            <ul id="comment-list" class="comment-list"></ul>
+          </div>
+        </div>
       </div>
-      <p class="board-note">自分の名前を選択して、出欠の有無をコメントしてください。</p>
-      <form class="board-form" id="board-form">
-        <label>
-          <span>名前</span>
-          <select id="board-name" name="name" required>
-            <option value="">選択してください</option>
-            <option value="藤原">藤原</option>
-            <option value="八木">八木</option>
-            <option value="猪俣">猪俣</option>
-            <option value="沢田">沢田</option>
-            <option value="関野">関野</option>
-            <option value="宮下">宮下</option>
-            <option value="五十嵐">五十嵐</option>
-          </select>
-        </label>
-        <label>
-          <span>コメント</span>
-          <textarea id="board-comment" name="comment" rows="4" maxlength="240" placeholder="コメントを入力してください" required></textarea>
-        </label>
-        <button type="submit">投稿する</button>
-      </form>
-      <div class="board-list" id="board-list" aria-live="polite"></div>
     </section>
 
-    <section class="qr-section" aria-labelledby="qr-title">
-      <div>
-        <h2 id="qr-title">共有用QRコード</h2>
-        <p>スマートフォンで読み取ると、この案内ページを開けます。</p>
-        <a class="qr-url" href="https://roy101jp-cell.github.io/nomi/">https://roy101jp-cell.github.io/nomi/</a>
+    <section class="access" aria-label="アクセス">
+      <div class="access__inner">
+        <p class="section-label">Access</p>
+        <h2>会場へのアクセス</h2>
+        <p>住所を確認して、当日はお気をつけてお越しください。</p>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E6%96%B0%E6%A9%8B3%E4%B8%81%E7%9B%AE13-4%20ACN%E6%96%B0%E6%A9%8B%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%207F" target="_blank" rel="noreferrer">Google マップで開く</a>
       </div>
-      <img src="assets/homepage-qr.png" alt="飲み会案内ホームページのQRコード">
     </section>
   </main>
-  <audio id="background-music" src="assets/夜景ダイニング01.mp3" autoplay loop preload="auto"></audio>
-  <button class="music-start" id="music-start" type="button" hidden>音楽を再生</button>
   <script>
-    const backgroundMusic = document.getElementById("background-music");
-    const musicStart = document.getElementById("music-start");
+    const bgmAudio = document.getElementById("bgm-audio");
+    const bgmPlay = document.getElementById("bgm-play");
+    const bgmStop = document.getElementById("bgm-stop");
+    const bgmStatus = document.getElementById("bgm-status");
     const boardForm = document.getElementById("board-form");
     const boardName = document.getElementById("board-name");
     const boardComment = document.getElementById("board-comment");
-    const boardList = document.getElementById("board-list");
-    const boardStorageKey = "nomi-board-comments";
+    const commentList = document.getElementById("comment-list");
+    const commentStorageKey = "nomi-board-comments";
 
-    backgroundMusic.volume = 0.45;
+    function updateBgmStatus(message) {
+      bgmStatus.textContent = message;
+    }
 
-    const startMusic = () => {
-      backgroundMusic.play()
-        .then(() => {
-          musicStart.hidden = true;
-        })
-        .catch(() => {
-          musicStart.hidden = false;
-        });
-    };
+    function playBgm() {
+      bgmAudio.volume = 0.45;
+      bgmAudio.play()
+        .then(() => updateBgmStatus("BGMを再生しています。"))
+        .catch(() => updateBgmStatus("自動再生が止められました。再生ボタンを押してください。"));
+    }
 
-    musicStart.addEventListener("click", startMusic);
-    window.addEventListener("load", startMusic);
+    function stopBgm() {
+      bgmAudio.pause();
+      bgmAudio.currentTime = 0;
+      updateBgmStatus("BGMを停止しました。");
+    }
 
-    const escapeHtml = (value) => value.replace(/[&<>"']/g, (char) => ({
-      "&": "&amp;",
-      "<": "&lt;",
-      ">": "&gt;",
-      "\"": "&quot;",
-      "'": "&#39;"
-    })[char]);
+    bgmPlay.addEventListener("click", playBgm);
+    bgmStop.addEventListener("click", stopBgm);
+    window.addEventListener("DOMContentLoaded", playBgm);
 
-    const loadComments = () => {
+    function loadComments() {
       try {
-        return JSON.parse(localStorage.getItem(boardStorageKey)) || [];
+        return JSON.parse(localStorage.getItem(commentStorageKey)) || [];
       } catch {
         return [];
       }
-    };
+    }
 
-    const saveComments = (comments) => {
-      localStorage.setItem(boardStorageKey, JSON.stringify(comments));
-    };
+    function saveComments(comments) {
+      localStorage.setItem(commentStorageKey, JSON.stringify(comments));
+    }
 
-    const renderComments = () => {
+    function renderComments() {
       const comments = loadComments();
+      commentList.innerHTML = "";
 
       if (comments.length === 0) {
-        boardList.innerHTML = '<p class="board-empty">まだ投稿はありません。</p>';
+        const emptyItem = document.createElement("li");
+        emptyItem.className = "comment-empty";
+        emptyItem.textContent = "まだ投稿はありません。";
+        commentList.append(emptyItem);
         return;
       }
 
-      boardList.innerHTML = comments.map((item) => `
-        <article class="board-card">
-          <div class="board-card-head">
-            <strong>${escapeHtml(item.name)}</strong>
-            <time>${escapeHtml(item.date)}</time>
-          </div>
-          <p>${escapeHtml(item.comment).replace(/\n/g, "<br>")}</p>
-        </article>
-      `).join("");
-    };
+      comments.forEach((comment) => {
+        const item = document.createElement("li");
+        item.className = "comment-item";
+
+        const meta = document.createElement("p");
+        meta.className = "comment-meta";
+        meta.textContent = `${comment.name} / ${comment.date}`;
+
+        const body = document.createElement("p");
+        body.className = "comment-body";
+        body.textContent = comment.text;
+
+        item.append(meta, body);
+        commentList.append(item);
+      });
+    }
 
     boardForm.addEventListener("submit", (event) => {
       event.preventDefault();
 
       const name = boardName.value;
-      const comment = boardComment.value.trim();
-
-      if (!name || !comment) {
+      const text = boardComment.value.trim();
+      if (!name || !text) {
         return;
       }
 
       const comments = loadComments();
       comments.unshift({
         name,
-        comment,
-        date: new Intl.DateTimeFormat("ja-JP", {
+        text,
+        date: new Date().toLocaleString("ja-JP", {
           month: "numeric",
           day: "numeric",
           hour: "2-digit",
           minute: "2-digit"
-        }).format(new Date())
+        })
       });
-
       saveComments(comments);
       boardComment.value = "";
       renderComments();
